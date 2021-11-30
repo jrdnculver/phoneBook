@@ -1,0 +1,82 @@
+<resources>
+    <!-- Login Account -->
+    <string name="app_name">phoneBookApp</string>
+    <string name="loginHeaderLbl">PhoneBook App</string>
+    <string name="userNameHintTxt">Type UserName</string>
+    <string name="passwordHintTxt">Type Password</string>
+    <string name="notAUserLbl">Not A User Yet?</string>
+    <string name="signUpBtn">Sign Up!</string>
+    <string name="logInBtn">Login</string>
+    <!-- Create Account -->
+    <string name="createAccountHeader">Create Account</string>
+    <string name="firstName">First Name:</string>
+    <string name="lastName">Last Name:</string>
+    <string name="street">Street:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="zip">Zip Code:</string>
+    <string name="email">Email:</string>
+    <string name="phoneNumber">Phone Number:</string>
+    <string name="userName">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="createButton">Create</string>
+    <string name="createFirstHint">Type First Name</string>
+    <string name="createLastHint">Type Last Name</string>
+    <string name="createStreetHint">Type Street Address</string>
+    <string name="createCityHint">Type City Name</string>
+    <string name="createStateHint">Type State Name</string>
+    <string name="createZipHint">Type Zip Code</string>
+    <string name="createEmailHint">Type Email</string>
+    <string name="createPhoneNumberHint">Type Phone Number</string>
+    <string name="createUserNameHint">Create Username</string>
+    <string name="createPasswordHint">Create Password</string>
+    <string name="menu">Menu</string>
+    <!-- Navigation -->
+    <string name="navHeader">Welcome (Name)</string>
+    <string name="view">Contact List</string>
+    <string name="add">ADD</string>
+    <string name="modify">MODIFY</string>
+    <string name="delete">DELETE</string>
+    <string name="home">Home</string>
+    <!-- VIEW -->
+    <string name="viewHeader">View Contact\'s</string>
+    <string name="preferencesBtn">Preferences</string>
+    <!-- ADD -->
+    <string name="addHeader">Add Contact</string>
+    <string name="firstNameAdd">First Name:</string>
+    <string name="lastNameAdd">Last Name:</string>
+    <string name="nickNameAdd">Alias:</string>
+    <string name="phoneNumberAdd">PhoneNumber:</string>
+    <string name="emailAdd">Email:</string>
+    <string name="firstNameAddHint">Enter First Name</string>
+    <string name="lastNameAddHint">Enter Last Name</string>
+    <string name="nickNameAddHint">Enter Alias Name</string>
+    <string name="phoneNumberAddHint">Enter PhoneNumber</string>
+    <string name="emailAddHint">Enter Email</string>
+    <string name="homeAddBtn">HOME</string>
+    <string name="createAddBtn">Add Contact</string>
+    <!-- Selected -->
+    <string name="selectedHeader">Selected Contact</string>
+    <string name="backBtn">BACK</string>
+    <string name="forwardBtn">FORWARD</string>
+    <string name="callBtn">CALL</string>
+    <!-- Modify -->
+    <string name="modifyHeaderLbl">Modify Contact</string>
+    <!-- Preference -->
+    <string name="preferenceHeaderLbl">App Preferences</string>
+    <string name="requirePassword">Require Password for this Account?</string>
+    <string name="colorMode">Color Mode for this Account?</string>
+    <string name="colorfulMode">Colorful Mode</string>
+    <string name="darkMode">Dark Mode</string>
+    <string name="lightMode">Light Mode</string>
+    <string name="submitPreferences">Execute Change</string>
+    <!-- Preference -->
+    <string name="aboutHeader">About phoneBook App</string>
+    <string name="aboutApp">This application is used as a phonebook which allows the user to create an account, provides security through
+    a username and password, allows addition of contacts, while also giving the ability to modify, delete, or call a saved contact
+    from the application.\n
+    There are also option from the preference page which allows you to determine whether yoiu want to have your phonebook password protected.
+    You can also choose a color theme from this page to determine a customized look which suits you.
+    </string>
+    <string name="helpBtn">Help</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginAct"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/helpBtn"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:text="@string/helpBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:text="@string/logInBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/passwordLoginTxt"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/passwordHintTxt"
+        android:importantForAutofill="no"
+        android:inputType="textShortMessage|textPersonName|text|textPassword|textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/loginHeaderLbl"
+        android:layout_width="297dp"
+        android:layout_height="58dp"
+        android:text="@string/loginHeaderLbl"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/usernameLoginTxt"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/userNameHintTxt"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/notUserLbl"
+        android:layout_width="300dp"
+        android:layout_height="47dp"
+        android:text="@string/notAUserLbl"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:text="@string/signUpBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/errorLoginTxt"
+        android:layout_width="356dp"
+        android:layout_height="42dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>
